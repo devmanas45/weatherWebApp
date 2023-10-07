@@ -104,3 +104,49 @@ body{
 .weather{
     display: none;
 }
+@media (max-width:1080px) {
+    .container{
+        margin-top:100px;
+        overflow:scroll;
+    }
+    .search input{
+        width:50%;
+        font-family: cursive;
+    }
+    .search button{
+        border:0;
+        outline:0;
+        background: #ebfffc;
+        border-radius:50%;
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+    }   
+    .error p{
+        width: 100%;
+        padding:50px;
+        font-size:35px;
+     }  
+     .weather h1{
+        font-size:35px;
+     }    
+     .weather h2{
+        font-size:30px;
+     } 
+     .col img{
+        width:20px;
+        
+     }
+     .col p{
+        font-size:15px;
+     }
+     .details{
+        width:300px;
+     }
+     .col{
+        
+        margin-right:10px;
+        margin-left:-20px;
+
+     }
+}
