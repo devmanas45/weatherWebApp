@@ -47,7 +47,7 @@ async function myWeather(city){
                 weatherIcon.src="mist.png";
                 break;
             default:
-                weatherIcon.src="kam.png";
+                weatherIcon.src="ww.png";
                 break;
         }
         weather.style.display="block";  
